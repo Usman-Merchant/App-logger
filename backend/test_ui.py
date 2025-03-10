@@ -6,7 +6,7 @@ import ollama
 import matplotlib.pyplot as plt
 from urllib.parse import urlencode
 
-API_BASE_URL = "http://127.0.0.1:8000"  # Replace with your FastAPI server URL
+API_BASE_URL = "https://app-logger.onrender.com"  # Replace with your FastAPI server URL
 
 # Functions to fetch data from FastAPI
 
