@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://127.0.0.1:8000"; // FastAPI backend
+const API_BASE_URL = "https://app-logger.onrender.com/"; // FastAPI backend
 
 export const fetchErrorLogs = async () => {
   return axios.get(`${API_BASE_URL}/error_logs/`).then((res) => res.data);
