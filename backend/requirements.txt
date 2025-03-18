@@ -6,4 +6,5 @@ uvicorn==0.23.2
 pydantic==2.3.0
 python-multipart==0.0.6
 asyncpg==0.27.0
+python-dotenv==1.0.0
 # Add any other dependencies your backend uses
