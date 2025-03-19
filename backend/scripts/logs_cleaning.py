@@ -5,7 +5,7 @@ import re
 import os
 import json
 
-POSTGRES_HOST = "localhost"
+POSTGRES_HOST = "db"
 POSTGRES_PORT = "5432"
 POSTGRES_USER = "postgres"
 POSTGRES_DATABASE = "xano_logs"
